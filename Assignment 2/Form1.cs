@@ -38,7 +38,29 @@ namespace Assignment_2
             }
         }
 
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+
+                double Input = double.Parse(textBox4.Text);
+                double Input2 = double.Parse(textBox5.Text);
+                double answer = 1.0 / (1.0 / Input + 1.0 / Input2 + 1.0);
+                label2.Text = answer.ToString();
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Please input a number");
+            }
+        }
     }
 
 }
