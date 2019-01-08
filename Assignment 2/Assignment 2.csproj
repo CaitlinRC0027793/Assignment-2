@@ -82,5 +82,8 @@
   <ItemGroup>
     <None Include="Resources\1200px-Series_circuit.svg.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
