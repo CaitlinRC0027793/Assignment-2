@@ -61,6 +61,57 @@ namespace Assignment_2
                 MessageBox.Show("Please input a number");
             }
         }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+            double Input, Input2, Input3, Input4, Input5;
+            try
+            {
+                Input = double.Parse(textBox1.Text);
+            }
+            catch
+            {
+                Input = 0;
+            }
+            try
+            {
+                Input2 = double.Parse(textBox2.Text);
+            }
+            catch
+            {
+                Input2 = 0;
+            }
+            try
+            {
+                Input3 = double.Parse(textBox3.Text);
+
+            }
+            catch
+            {
+                Input3 = 0;
+            }
+            try
+            {
+                Input4 = double.Parse(textBox6.Text);
+            }
+            catch
+            {
+                Input4 = 0;
+            }
+            try
+            {
+                Input5 = double.Parse(textBox7.Text);
+            }
+            catch
+            {
+                Input5 = 0;
+            }
+            double answer = Input + Input2 + Input3 + Input4 + Input5;
+            label1.Text = answer.ToString();
+
+        
+       
+        }
     }
 
 }
