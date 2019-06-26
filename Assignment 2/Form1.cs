@@ -19,6 +19,7 @@ namespace Assignment_2
 
         private void button1_Click(object sender, EventArgs e)
         {
+        // calculates total resistance in series
             double Input, Input2, Input3, Input4, Input5;
             try
             {
@@ -68,6 +69,7 @@ namespace Assignment_2
 
         private void button2_Click(object sender, EventArgs e)
         {
+        //calculates total resistance in parallel
             double Input, Input2, Input3, Input4, Input5;
             try
             {
